@@ -1,0 +1,20 @@
+.name {
+    font-size: calc(50px + 2vw)
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.resume-company {
+    font-size: calc(15px + 2vw);
+    padding-top: 15px;
+}
+
+.page-padding {
+    padding-top: 75px;
+}
+
+.resume-dates {
+    font-size: calc(15px + 0.5vw);
+}

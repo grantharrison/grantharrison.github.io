@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+.code-h1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.name {
+    font-size: calc(50px + 2vw)
+}
+
+.welcome-content {
+    width: 80%;
+    margin: auto;
+}
+
+.animation {
+  font-size: calc(10px + 2vw);
+  color: #50c878;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid rgba(165, 165, 165, 0.74);
+  padding-right: 5px;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 2s steps(30, end),
+    cursor 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(165, 165, 165, 0.74);
+  }
+}

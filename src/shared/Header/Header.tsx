@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const navigation = [
-  { number: '1.', name: 'Projects', href: '/' },
+  { number: '1.', name: 'Projects', href: '/projects' },
   { number: '2.', name: 'Blogs', href: 'https://medium.com/@grant.tyler.harrison' },
   { number: '3.', name: 'Resume', href: '/resume' },
 ]

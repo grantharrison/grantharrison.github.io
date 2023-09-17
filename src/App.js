@@ -11,9 +11,9 @@ const App = () => {
      <div className="bg-slate-800">
        <Header />
         <Routes>
-           <Route exact path="/" element={<Home />} />
-           <Route exact path="/resume" element={<Resume />} />
-           <Route exact path="/projects" element={<Projects />} />
+           <Route path="/" element={<Home />} />
+           <Route path="/resume" element={<Resume />} />
+           <Route path="/projects" element={<Projects />} />
         </Routes>
      </div>
      </HashRouter>

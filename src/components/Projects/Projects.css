@@ -1,1 +1,8 @@
-.Projects {}
+.project-title {
+  font-size: calc(15px + 2vw);
+  padding-top: 15px;
+}
+
+.project-title-link:hover {
+  text-decoration: underline;
+}

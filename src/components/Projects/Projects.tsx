@@ -38,6 +38,13 @@ const Projects = () => {
             yourself.
           </p>
           <h2 className="project-title name text-blue-400">
+            Algorithmic Trading Research and Development
+          </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-200">
+            The past couple of years I have been researching and implementing trading algorithms in the Interactive Brokers enviroment. Let me know if you would like to take a
+            look, thanks!
+          </p>
+          <h2 className="project-title name text-blue-400">
             Kids Code (Private)
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-200">
